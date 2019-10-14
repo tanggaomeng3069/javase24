@@ -17,7 +17,7 @@ public class DemoMathematics {
         int intc1 = inta + intb;
         int intc2 = inta - intb;
         int intc3 = inta * intb;
-        float intc4 = inta / intb;
+        float intc4 = (float) inta / (float) intb;
 
 
         System.out.println(inta + " + " + intb + " = " + intc1);
